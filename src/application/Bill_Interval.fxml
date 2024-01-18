@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="488.0" prefWidth="715.0" style="-fx-background-color: #eafbbd;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Bill_Interval">
+   <children>
+      <Label alignment="CENTER" prefHeight="128.0" prefWidth="715.0" style="-fx-background-color: #38490b;" text="Bill" textFill="#bed383">
+         <font>
+            <Font name="Bodoni MT Bold" size="48.0" />
+         </font>
+      </Label>
+      <Button fx:id="bill" layoutX="79.0" layoutY="250.0" mnemonicParsing="false" onAction="#go" prefHeight="34.0" prefWidth="120.0" style="-fx-background-color: #8cda43;" text="Electricity" textFill="#396312d1">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="dashboard" layoutX="304.0" layoutY="371.0" mnemonicParsing="false" onAction="#go_dashboard" prefHeight="34.0" prefWidth="108.0" style="-fx-background-color: #8cda43;" text="Main Menu" textFill="#396312d1">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="bill1" layoutX="298.0" layoutY="250.0" mnemonicParsing="false" onAction="#go1" prefHeight="34.0" prefWidth="120.0" style="-fx-background-color: #8cda43;" text="Gas" textFill="#396312d1">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="bill2" layoutX="500.0" layoutY="250.0" mnemonicParsing="false" onAction="#go2" prefHeight="34.0" prefWidth="120.0" style="-fx-background-color: #8cda43;" text="Water" textFill="#396312d1">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="bill3" layoutX="265.0" layoutY="169.0" mnemonicParsing="false" onAction="#go_mobile_recharge" prefHeight="34.0" prefWidth="184.0" style="-fx-background-color: #8cda43;" text="Mobile Recharge" textFill="#396312d1">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

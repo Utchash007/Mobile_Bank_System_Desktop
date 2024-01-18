@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="488.0" prefWidth="715.0" style="-fx-background-color: #eafbbd;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AllGraph">
+   <children>
+      <Pane prefHeight="123.0" prefWidth="715.0" style="-fx-background-color: #38490b;">
+         <children>
+            <Text fill="#d3e89af0" layoutX="213.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Users' Chart" textAlignment="JUSTIFY" wrappingWidth="309.2669219970703">
+               <font>
+                  <Font name="Copperplate Gothic Bold" size="34.0" />
+               </font>
+            </Text>
+            <Button fx:id="logout" layoutX="600.0" layoutY="81.0" mnemonicParsing="false" onAction="#logout" prefHeight="34.0" prefWidth="108.0" style="-fx-background-color: #eafbbd;" text="Logout" textFill="#396312d1">
+               <font>
+                  <Font name="Copperplate Gothic Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="goback" layoutY="81.0" mnemonicParsing="false" onAction="#back" prefHeight="34.0" prefWidth="108.0" style="-fx-background-color: #eafbbd;" text="Back" textFill="#396312d1">
+               <font>
+                  <Font name="Copperplate Gothic Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <BarChart fx:id="bar" layoutX="-11.0" layoutY="117.0" prefHeight="364.0" prefWidth="723.0" titleSide="BOTTOM">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </BarChart>
+   </children>
+</AnchorPane>

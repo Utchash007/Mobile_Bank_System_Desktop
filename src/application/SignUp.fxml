@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="488.0" prefWidth="715.0" style="-fx-background-color: #eafbbd;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SignupController">
+   <children>
+      <Label alignment="BASELINE_RIGHT" layoutX="-4.0" prefHeight="128.0" prefWidth="723.0" style="-fx-background-color: #38490b;" text="Sign UP     " textAlignment="RIGHT" textFill="#4fa40e">
+         <font>
+            <Font name="Bauhaus 93" size="52.0" />
+         </font>
+      </Label>
+      <Label fx:id="First_name" layoutX="14.0" layoutY="134.0" prefHeight="38.0" prefWidth="176.0" text="First Name" textFill="#197563f7">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txname" layoutX="14.0" layoutY="183.0" prefHeight="32.0" prefWidth="189.0" promptText="Enter Your First Name" style="-fx-background-color: #ffffff;" />
+      <Label fx:id="Last_name" layoutX="14.0" layoutY="225.0" prefHeight="38.0" prefWidth="176.0" text="Last Name" textFill="#197563f7">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txname1" layoutX="14.0" layoutY="270.0" prefHeight="32.0" prefWidth="189.0" promptText="Enter Your Last Name" style="-fx-background-color: #ffffff;" />
+      <Label fx:id="First_name1" layoutX="449.0" layoutY="134.0" prefHeight="38.0" prefWidth="176.0" text="Mobile No" textFill="#197563f7">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txname2" layoutX="449.0" layoutY="183.0" prefHeight="32.0" prefWidth="189.0" promptText="Enter Your Mobil No" style="-fx-background-color: #ffffff;" />
+      <Label fx:id="First_name11" layoutX="449.0" layoutY="225.0" prefHeight="38.0" prefWidth="176.0" text="PIN" textFill="#197563f7">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="18.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="txtpass" layoutX="449.0" layoutY="270.0" prefHeight="32.0" prefWidth="189.0" promptText="Enter Pin" style="-fx-background-color: #ffffff;" />
+      <Button fx:id="SignUpButton" layoutX="544.0" layoutY="384.0" mnemonicParsing="false" onAction="#SignUpPOO" prefHeight="32.0" prefWidth="95.0" style="-fx-background-color: #2d720d;" text="Sign Up" textFill="#c9e182" />
+      <Label alignment="CENTER" prefHeight="128.0" prefWidth="340.0" text="Führer" textFill="#bed383">
+         <font>
+            <Font name="Bodoni MT Bold" size="48.0" />
+         </font>
+      </Label>
+      <Button fx:id="login_button" layoutX="14.0" layoutY="384.0" mnemonicParsing="false" onAction="#goLogin" prefHeight="32.0" prefWidth="95.0" style="-fx-background-color: #2d720d;" text="Login" textFill="#c9e182" />
+   </children>
+</AnchorPane>

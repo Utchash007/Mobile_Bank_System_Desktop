@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="488.0" prefWidth="715.0" style="-fx-background-color: #eafbbd;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Dashboard">
+   <children>
+      <Pane prefHeight="129.0" prefWidth="715.0" style="-fx-background-color: #38490b;">
+         <children>
+            <Label alignment="CENTER" layoutX="7.0" prefHeight="53.0" prefWidth="165.0" text="Hi" textAlignment="JUSTIFY" textFill="#eafbbd">
+               <font>
+                  <Font name="Bell MT Bold" size="31.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="463.0" prefHeight="128.0" prefWidth="252.0" text="Führer" textFill="#bed383">
+               <font>
+                  <Font name="Bodoni MT Bold" size="48.0" />
+               </font>
+            </Label>
+            <Label fx:id="NameField" alignment="CENTER" layoutX="-2.0" layoutY="59.0" prefHeight="73.0" prefWidth="175.0" text="Label" textFill="#d0ff12">
+               <font>
+                  <Font name="Bell MT" size="26.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label alignment="TOP_LEFT" layoutX="56.0" layoutY="137.0" prefHeight="142.0" prefWidth="241.0" style="-fx-background-color: #8aa927;" text="Balance" textFill="#ccff34">
+         <font>
+            <Font name="Bell MT" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="blance" alignment="CENTER" layoutX="74.0" layoutY="225.0" prefHeight="53.0" prefWidth="200.0" text="Label" textFill="#ccff34">
+         <font>
+            <Font name="Bell MT" size="31.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="383.0" layoutY="137.0" prefHeight="142.0" prefWidth="241.0" style="-fx-background-color: #b6bca0;" text="Loan" textFill="#dcff72">
+         <font>
+            <Font name="Bell MT" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="loan" alignment="CENTER" layoutX="399.0" layoutY="222.0" prefHeight="53.0" prefWidth="200.0" text="Label" textFill="#d8ff00">
+         <font>
+            <Font name="Bell MT" size="34.0" />
+         </font>
+      </Label>
+      <Button fx:id="sendmoney" layoutX="56.0" layoutY="313.0" mnemonicParsing="false" onAction="#go_send_money" prefHeight="34.0" prefWidth="108.0" style="-fx-background-color: #8cda43;" text="Send Money" textFill="#396312d1">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="paybill" layoutX="56.0" layoutY="363.0" mnemonicParsing="false" onAction="#go_pay_bill" prefHeight="34.0" prefWidth="108.0" style="-fx-background-color: #8cda43;" text="Pay Bill" textFill="#396312d1">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="takeloan" layoutX="56.0" layoutY="411.0" mnemonicParsing="false" onAction="#gotake_loan" prefHeight="34.0" prefWidth="108.0" style="-fx-background-color: #8cda43;" text="Loan" textFill="#396312d1">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="stats" layoutX="510.0" layoutY="313.0" mnemonicParsing="false" onAction="#go_stats" prefHeight="34.0" prefWidth="108.0" style="-fx-background-color: #8cda43;" text="Statistics" textFill="#396312d1">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="logout" layoutX="510.0" layoutY="377.0" mnemonicParsing="false" onAction="#logout" prefHeight="34.0" prefWidth="108.0" style="-fx-background-color: #8cda43;" text="Logout" textFill="#396312d1">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

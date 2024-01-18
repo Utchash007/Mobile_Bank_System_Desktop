@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="488.0" prefWidth="715.0" style="-fx-background-color: #eafbbd;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Sendinterval">
+   <children>
+      <Label alignment="CENTER" prefHeight="128.0" prefWidth="715.0" style="-fx-background-color: #38490b;" text="Send Money" textFill="#bed383">
+         <font>
+            <Font name="Bodoni MT Bold" size="48.0" />
+         </font>
+      </Label>
+      <Button fx:id="SendMoneyUser" layoutX="74.0" layoutY="227.0" mnemonicParsing="false" onAction="#go_send_money_user" prefHeight="34.0" prefWidth="108.0" style="-fx-background-color: #8cda43;" text="User" textFill="#396312d1">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="SendMoneyBank" layoutX="517.0" layoutY="227.0" mnemonicParsing="false" onAction="#go_send_money_bank" prefHeight="34.0" prefWidth="108.0" style="-fx-background-color: #8cda43;" text="Bank" textFill="#396312d1">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="dashboard" layoutX="304.0" layoutY="360.0" mnemonicParsing="false" onAction="#go_dashboard" prefHeight="34.0" prefWidth="108.0" style="-fx-background-color: #8cda43;" text="Main Menu" textFill="#396312d1">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

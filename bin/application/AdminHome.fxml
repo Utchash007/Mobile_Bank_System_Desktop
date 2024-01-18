@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="488.0" prefWidth="715.0" style="-fx-background-color: #eafbbd;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AdminHome">
+   <children>
+      <VBox layoutX="-7.0" prefHeight="488.0" prefWidth="340.0" style="-fx-background-color: #38490b;" />
+      <Label alignment="CENTER" layoutX="389.0" layoutY="16.0" prefHeight="89.0" prefWidth="298.0" text="Admin Login" textAlignment="JUSTIFY" textFill="#4fa40ee5">
+         <font>
+            <Font name="Bauhaus 93" size="52.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Bloom />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Label>
+      <Label layoutX="358.0" layoutY="158.0" prefHeight="38.0" prefWidth="176.0" text="User  Name" textFill="#197563f7">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txname" layoutX="358.0" layoutY="196.0" prefHeight="32.0" prefWidth="176.0" promptText="Enter Your Mobile No" style="-fx-background-color: #ffffff;" />
+      <Label layoutX="358.0" layoutY="280.0" prefHeight="38.0" prefWidth="176.0" text="Password" textFill="#197563f7">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="18.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="txtpass" layoutX="358.0" layoutY="318.0" prefHeight="32.0" prefWidth="176.0" promptText="Enter Pin" style="-fx-background-color: #ffffff;" />
+      <Button fx:id="btn" layoutX="611.0" layoutY="412.0" mnemonicParsing="false" onAction="#login" prefHeight="32.0" prefWidth="73.0" style="-fx-background-color: #4bb80f;" text="Login">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutY="77.0" prefHeight="143.0" prefWidth="340.0" text="Führer" textFill="#bed383">
+         <font>
+            <Font name="Bodoni MT Bold" size="48.0" />
+         </font>
+      </Label>
+      <Button fx:id="UserLog" layoutX="358.0" layoutY="412.0" mnemonicParsing="false" onAction="#GoUserLog" prefHeight="30.0" prefWidth="112.0" style="-fx-background-color: #4bb80f;" text="User Login">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
